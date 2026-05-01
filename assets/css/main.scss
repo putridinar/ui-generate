@@ -6,12 +6,12 @@
 @use 'mixins' as *;
 @use 'normalize';
 @use '../sass/reset';
-@use '../sass/base';
+@use '../sass/base' as *;
 @use '../sass/components';
 
 
 body {
-  background: $bg-color;
+  background: $bgColor;
   color: $text-color;
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
